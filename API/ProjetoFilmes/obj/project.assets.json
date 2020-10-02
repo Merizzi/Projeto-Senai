@@ -12494,11 +12494,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\SENAI-ESTUDOS\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\Projeto-Senai\\API\\ProjetoFilmes\\ProjetoFilmes.csproj",
       "projectName": "ProjetoFilmes",
-      "projectPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\SENAI-ESTUDOS\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\ProjetoFilmes.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\Projeto-Senai\\API\\ProjetoFilmes\\ProjetoFilmes.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\SENAI-ESTUDOS\\backend\\01.filmes\\backend\\ProjetoFilmes\\ProjetoFilmes\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Ana Laura\\Senai\\Aulas\\JavaScript\\DesafioFrontEnd\\Projeto-Senai\\API\\ProjetoFilmes\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

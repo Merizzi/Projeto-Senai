@@ -1,6 +1,6 @@
 function listarFilmes(event) {
     event.preventDefault();
-    const URL = "https://jsonplaceholder.typicode.com/todos/2";
+    const URL = "http://localhost:5000/index.html";
     fetch(URL)
     .then(resposta => resposta.json())
     .then(data => mostrarResposta(data))    
@@ -9,9 +9,8 @@ function listarFilmes(event) {
 
 function mostrarResposta(data) {
     const mensagem = 
-        `USERID: ${data.userId},
-        ID: ${data.id},
-        Title: ${data.title},
-        completed: ${data.completed}`;
+        `IdFilme: ${data.IdFilme},
+        Titulo: ${data.Titulo},
+        IdGenero: ${data.IdGenero}`;
         alert(mensagem);
 }
