@@ -4,7 +4,155 @@
 }
 
 header {
-    background-color: cadetblue;
+    position: absolute;
     width: 100%;
-    height: 150px;
+    height: 180px;
+    left: 0px;
+    top: 0px;    
+    background: #9BD2DE;
+    display: flex;
 }
+
+#logoFilme{
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 208px;
+    top: 55px;
+    background: url(play-button.png);
+}
+
+#logoTitulo{
+    position: absolute;
+    width: 102px;
+    left: 280px;
+    height: 35px;    
+    top: 55px;
+    font-style: normal;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: normal;    
+    line-height: 35px;    
+    color: #616162;
+}
+
+#logoSub{
+    position: absolute;
+    height: 25px;
+    left: 280px;
+    top: 90px;    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;    
+    color: #686666;
+    width: 88px;
+}
+
+h3{
+    margin-bottom: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    left: 0px;
+    top: 780px;
+    background: #F6511D;
+}
+
+
+.section-container-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-container-logo1{
+    display: flex;
+	justify-content: center;
+}
+
+.section-container-titulo{
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-container-nav{
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+    margin-left: 1080px;
+}
+
+.section-container-logo3{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;  
+}
+
+main{
+    margin-top: 13rem;
+}
+
+#logoCine{
+    
+    width: 5%;
+}
+
+.section-container-film{
+    display: flex;
+	flex-direction: column;
+	margin-left:5rem;
+    margin-top: 3rem;
+    width: 25%;
+}
+
+.listaFilmes{
+    display: flex;
+	justify-content: space-around;
+	
+}
+
+.section-container-button{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+
+.section-container-footer{
+	display: flex;
+    justify-content: space-around;
+    width: 1440px;
+    height: 200px;
+}
+
+.section-container-logo2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.section-container-end{
+    width: 50%;
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.letra{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
