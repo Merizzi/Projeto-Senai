@@ -30,15 +30,13 @@
     </header>
 
     <main>
+        <section class="section-container-body">
 
-        <div class="section-container-logo3">
+            <div class="section-container-logo3">
             <h3> Filmes </h3>
             <img id="logoCine" class="logoCine" src="img/cinema.png" />
-        </div>
-
-
-        <section class="section-container-body">
-            <form class="form" onsubmit="listarFilmes(event);">
+            </div>
+            <form class="form" id="formu" onsubmit="listarFilmes(event);">
             <div class="section-container-film">
                 <h3> Lista de Filmes</h3>
                 <div class="listaFilmes">
@@ -54,8 +52,9 @@
                     <a class="letra">Gênero</a>
                 </div>
             </div>
+
             <div class="section-container-button">
-                <button type="submit" class="buttonList"> Listar Filmes </button>
+                <button onclick="listarFilmes()" class="buttonList"> Listar Filmes </button>
             </div>
             </form>
         </section>

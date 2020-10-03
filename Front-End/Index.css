@@ -4,13 +4,11 @@
 }
 
 header {
-    position: absolute;
     width: 100%;
     height: 180px;
     left: 0px;
     top: 0px;    
     background: #9BD2DE;
-    display: flex;
 }
 
 #logoFilme{
@@ -57,11 +55,8 @@ h3{
 
 
 footer{
-    position: absolute;
     width: 100%;
     height: 200px;
-    left: 0px;
-    top: 780px;
     background: #F6511D;
 }
 
@@ -69,11 +64,15 @@ footer{
 .section-container-header{
     display: flex;
     justify-content: space-around;
+    width: 100%;
+    height: 180px;
 }
 
 .section-container-logo1{
     display: flex;
-	justify-content: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
 }
 
 .section-container-titulo{
@@ -85,21 +84,36 @@ footer{
 .section-container-nav{
     display: flex;
 	justify-content: space-around;
-	align-items: center;
-    margin-left: 1080px;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.section-container-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
 }
 
 .section-container-logo3{
     display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	align-content: center;  
 }
 
+#formu{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
 main{
-    margin-top: 13rem;
+    width: 100%;
+    height: 400px;
 }
 
 #logoCine{
@@ -109,10 +123,10 @@ main{
 
 .section-container-film{
     display: flex;
-	flex-direction: column;
-	margin-left:5rem;
-    margin-top: 3rem;
-    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3%;
+    width: 50%;
 }
 
 .listaFilmes{
@@ -122,8 +136,10 @@ main{
 }
 
 .section-container-button{
-    margin-left: 5rem;
-    margin-top: 2rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
