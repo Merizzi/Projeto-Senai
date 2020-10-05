@@ -1,5 +1,4 @@
-*
-{
+*{
     margin: 0;
 }
 
@@ -34,47 +33,66 @@ header
 
 /*-------------------------------------------------------------*/
 
-main .tema
-{
-    margin-left: 900px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+main{
+    height: 330px;
+    background-color: #ffffff;
 }
 
-main #cinema
-{
+.section-container-main{
+    width: 100%;
+    height: 330px;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.section-container-top{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.cinema{
     width: 100px;
     height: 100px;
-    margin-left: 885px;
 }
 
-h2
-{
-    margin-left: 250px;
+.section-container-bot{
+    height: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.filmes
-{
-    margin-left: 300px;
+.section-container-film{
+    width: 20%;
+    height: 100%;
+    display: flex;
+	justify-content: center;
+	align-items: baseline;
 }
 
-.NomesFilmes
-{
-    list-style: none;
-    font-size: 20px;
+.section-container-ul{
+    width: 25%;
+    height: 100%;
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: baseline;
 }
 
-.GenerosFilmes
-{
-    list-style: none;
-    margin-left: 170px;
-    margin-top: -69px;
-    font-size: 20px;
+.section-container-button{
+    width: 55%;
+    height: 100%;
+    display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #ul
 {
-    margin-left: 210px;
     list-style: none;
 }
 
@@ -89,9 +107,6 @@ button
     color: white;
     width: 150px;
     height: 58px;
-    margin-left: 1500px;
-    margin-top: 150px;
-    margin-bottom: 55px;
 }
 
 /*-------------------------------------------------------------*/
@@ -99,31 +114,42 @@ button
 footer
 {
     background-color: #F6511D;
-    height: 195px;
-    margin-top: 88px;
+    height: 180px;
 }
 
-.negativo
-{
-    margin-top: 70px;
-    margin-left: 250px;
+.section-container-footer{
+    width: 100%;
+    height: 180px;
+    display: flex;
+	justify-content: space-around;
 }
 
-hr
-{
-    width: 150px;
-    margin-left: 850px;
-    margin-top: -40px;
-    transform: rotate(90deg);
+.section-container-logo{
+    width: 35%;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.section-container-barra{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-container-barra hr{
     color: white;
 }
 
-.info
-{
-    list-style: none;
-    margin-left: 1300px;
-    word-spacing: 5px;
-    letter-spacing: 1px;
+.section-container-info{
+    width: 45%;
+    display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.section-container-info a{
     color: white;
-    margin-top: -30px;
 }
